@@ -1,5 +1,5 @@
 import styles from "../style";
-import { robot } from "../assets";
+import { kclub } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -12,9 +12,6 @@ const Hero = () => {
             Intensité <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Tenacité</span>{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
@@ -28,7 +25,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className=" h-[100%] relative z-[5]" />
+        <img src={kclub} alt="billing" className=" h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
