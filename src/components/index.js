@@ -7,6 +7,8 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import Admin from "./Admin";
+import Try from "./Try";
 
 export {
   Navbar,
@@ -18,4 +20,14 @@ export {
   Footer,
   Testimonials,
   Hero,
+  Admin,
+  Try,
 };
+
+
+// test firebase
+import { db, auth, storage } from '../firebase';
+
+console.log("Firestore:", db);
+console.log("Auth:", auth);
+console.log("Storage:", storage);

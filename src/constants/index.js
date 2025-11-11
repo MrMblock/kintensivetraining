@@ -3,29 +3,33 @@ import { Star, Shield, Send } from "lucide-react";
 
 export const navLinks = [
   {
-    id: "home",
+    link: "home",
     title: "Accueil",
   },
   {
-    id: "k",
+    link: "k",
     title: "K.",
   },
   {
-    id: "intensive",
+    link: "intensive",
     title: "Intensive",
   },
   {
-    id: "training",
+    link: "training",
     title: "Training",
   },
   {
-    id: "club",
+    link: "club",
     title: "Club",
   },
   {
-    id: "press",
+    link: "press",
     title: "Ils parlent de nous",
   },
+  {
+    link: "try",
+    title: "Séance d'essai",
+  }
 ];
 
 export const features = [
@@ -56,24 +60,24 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Le K. m'a transformé : plus de confiance, une meilleure forme et des résultats concrets.",
-    name: "Fernand Lopez",
+      "Meilleur endroit pour le dépassement de soi, une ambiance que tu ne trouves pas ailleurs🔥",
+    name: "Mady",
     title: "Membre",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Ambiance motivante et coaching professionnel — j'atteins enfin mes objectifs.",
-    name: "Gabriel",
+      "Vous pouvez y allez les yeux fermés! Il y en a pour tous les niveaux et le coach s'adapte à tes besoins.",
+    name: "Didiverte",
     title: "Membre",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Des séances intenses et adaptées qui m'ont permis de gagner en puissance et en endurance.",
-    name: "Sidonie",
+      "Cours de yoga au top👍 un complément essentiel au cross-training pour gagner en mobilité et en souplesse.",
+    name: "Nono9475",
     title: "Membre",
     img: people03,
   },
@@ -174,4 +178,39 @@ export const socialMedia = [
     icon: facebook,
     link: "https://www.facebook.com/profile.php?id=100066828435077",
   },
+];
+
+export const testimonials = [
+  {
+    id: "testimonial-1",
+    type: "written",
+    name: "Mady",
+    title: "Membre",
+    content: "Meilleur endroit pour le dépassement de soi, une ambiance que tu ne trouves pas ailleurs🔥",
+    date: "2024"
+  },
+  {
+    id: "testimonial-2",
+    type: "written",
+    name: "Didiverte",
+    title: "Membre",
+    content: "Vous pouvez y allez les yeux fermés! Il y en a pour tous les niveaux et le coach s'adapte à tes besoins.",
+    date: "2024"
+  },
+  {
+    id: "testimonial-3",
+    type: "written",
+    name: "Nono9475",
+    title: "Membre",
+    content: "Cours de yoga au top👍 un complément essentiel au cross-training pour gagner en mobilité et en souplesse.",
+    date: "2024"
+  },
+  {
+    id: "testimonial-4",
+    type: "video",
+    name: "Témoignage vidéo",
+    title: "Membre",
+    content: "Bientôt disponible",
+    date: "2024"
+  }
 ];

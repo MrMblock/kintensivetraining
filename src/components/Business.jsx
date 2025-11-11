@@ -31,7 +31,9 @@ const Business = () =>  (
         physique, atteindre tes objectifs et transformer ton corps.<br />
       </p>
 
-      <Button styles={`mt-10`} />
+      <Link to="/try">
+        <Button styles={`mt-10`} />
+      </Link>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

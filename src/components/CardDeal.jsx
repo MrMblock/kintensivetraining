@@ -1,6 +1,7 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -14,7 +15,9 @@ const CardDeal = () => (
 
       </p>
 
-      <Button styles={`mt-10`} />
+      <Link to="/k">
+       <Button styles={`mt-10`} />
+       </Link>
     </div>
 
     <div className={layout.sectionImg}>

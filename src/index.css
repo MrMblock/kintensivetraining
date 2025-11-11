@@ -18,6 +18,10 @@
   scroll-behavior: smooth;
 }
 
+html, body, #root {
+  scroll-behavior: smooth;
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -105,6 +109,21 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 .feature-card:hover {
