@@ -13,6 +13,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import k from "./k.png";
 import kclub from "./kclub.jpeg";
+import intensive from "./intensive.jpeg";
 
 export {
   bill,
@@ -30,4 +31,5 @@ export {
   people03,
   k,
   kclub,
+  intensive,
 };
